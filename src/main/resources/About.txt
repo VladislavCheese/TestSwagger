@@ -1,0 +1,7 @@
+1. добавлем 2 зависиммости
+2. прописываем @EnableSwagger2
+3. добавляем @RequestMapping("api") для UI
+/v2/api-docs
+/swagger-ui.html
+4. добавляем настройки в main классе
+5. анотируем методы контроллера (@ApiOperation), аргументы (@ApiParam) и поля класса (@ApiModel, @ApiModelProperty)
